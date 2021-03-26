@@ -25,28 +25,40 @@
   text-align: center;
 }
 
+#java{
+  border: solid black;
+  background-color: rgb(128, 135, 233);
+  color: red;
+}
+
 .java-hidden{
   display: none;
+}
+
+#c{
+  border: solid black;
+  background-color: rgba(137, 43, 226, 0.637);
+  color: white;
 }
 
 .c-hidden{
   display: none;
 }
 
+
+#ror{
+  border: solid black;
+  background-color: rgb(199, 11, 5);
+  color: white;
+}
+
 .ruby-hidden{
   display: none;
 }
 
-
-#java{
-
-
+#java:hover, #c:hover, #ror:hover{
+  font-weight: bolder;
+  font-size: 280%;
+  cursor: pointer;
 }
 
-#c{
-
-}
-
-#ror{
-
-}
