@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+#questions{
+  text-align: center;
+}
+
 .java-hidden{
   display: none;
 }
@@ -28,6 +32,8 @@
 .ruby-hidden{
   display: none;
 }
+
+
 #java{
 
 
