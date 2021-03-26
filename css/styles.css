@@ -25,6 +25,7 @@ body{
 .disclaimer:hover{
   font-weight: bolder;
 }
+
 .blurb{
   text-align: center;
 }
@@ -36,6 +37,7 @@ body{
  width: 400px;
 
 }
+
 .codename, .codenametitle{
   text-align: center;
 }
@@ -71,7 +73,6 @@ body{
 .c-hidden{
   display: none;
 }
-
 
 #ror{
   border: solid black;
