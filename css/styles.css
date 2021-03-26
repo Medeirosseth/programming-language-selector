@@ -1,15 +1,42 @@
-/* #interested {
+#interested {
   display: none;
 }
 
 #notinterested {
   display: none;
-} */
+}
 
 .head{
   text-align: center;
 }
 
-.codename {
+.blurb{
   text-align: center;
+}
+.codename, .codenametitle{
+  text-align: center;
+}
+
+.java-hidden{
+  display: none;
+}
+
+.c-hidden{
+  display: none;
+}
+
+.ruby-hidden{
+  display: none;
+}
+#java{
+
+
+}
+
+#c{
+
+}
+
+#ror{
+
 }
