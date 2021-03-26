@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const aprospectivecoder = confirm("Interested what coding language matches your personality? Click ok for yes or cancel for no.")
+  const aprospectivecoder = confirm("InTeReSTeD In kNOwInG wHaT CoDiNG LanGUagE MatCHeZ YoUr PErsOnAliTy? CliICk oK fOR yEs or CaNcEl FoR No.")
     if (aprospectivecoder) {
       $("#interested").show();
     } else {
