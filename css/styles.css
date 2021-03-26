@@ -6,6 +6,9 @@
   display: none;
 }
 
+body{
+  border: solid black 40px;
+}
 .head{
   text-align: center;
 }
@@ -34,6 +37,10 @@
 }
 
 #questions{
+ justify-content: center; 
+ 
+}
+#showhidden{
   text-align: center;
 }
 
