@@ -29,6 +29,7 @@ _This is an applicatioin for people interested in coding to decide which languag
 
 * _When confirm() is canceled the hidden notification is not being shown to user _
 * _not all 125 survey outcomes are represented_
+* _site must be veiwed in full screen mode to orientate the page as intended_
 
 ## License
 
