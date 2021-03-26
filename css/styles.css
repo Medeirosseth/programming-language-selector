@@ -10,6 +10,18 @@
   text-align: center;
 }
 
+.insane{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#disclaimer{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.disclaimer:hover{
+  font-weight: bolder;
+}
 .blurb{
   text-align: center;
 }
@@ -62,3 +74,11 @@
   cursor: pointer;
 }
 
+#result{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#resultstyle{
+  font-weight: bolder;
+}
