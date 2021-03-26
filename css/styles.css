@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.hide{
+  display: none;
+}
+
 #questions{
   text-align: center;
 }
