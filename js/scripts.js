@@ -15,7 +15,7 @@ $(document).ready(function() {
       const computer = parseInt($("#computer").val());
 
       if (entertainment == 1) {
-        if (beverage == 1) {
+        if (beverage == 1 || beverage == 2 ) {
           if (app == 1) {
             if (animal == 1) {
               if (computer == 1) {
@@ -55,12 +55,62 @@ $(document).ready(function() {
       }
       if (entertainment == 2) {
         if (beverage == 1) {
-          if (app == 1) {
-            if (animal == 1) {
+          if (app == 1 || app == 2) {
+            if (animal == 1 || animal == 2) {
               if (computer == 1) {
                 $("#result").text("Ruby on rails"); 
-              } else if ( computer == 2){
-                ("#results").val(BEEEEEF)
+              } else if ( computer ==2){
+                $("#result").text("Java");
+              }
+            }
+          }
+        }
+      }
+      if (entertainment == 2) {
+        if (beverage == 2) {
+          if (app == 2) {
+            if (animal == 2) {
+              if (computer == 2) {
+                $("#result").text("C#"); 
+              } else if ( computer ==1){
+                $("#result").text("PIZZA!!!");
+              }
+            }
+          }
+        }
+      }
+      if (entertainment == 2 ) {
+        if (beverage == 2) {
+          if (app == 1 ) {
+            if (animal == 2) {
+              if (computer == 2) {
+                $("#result").text("Ruby on Rails"); 
+              } else if ( computer ==1){
+                $("#result").text("Java");
+              }
+            }
+          }
+        }
+      }
+      if (entertainment == 2 || entertainment == 1) {
+        if (beverage == 2) {
+          if (app == 1) {
+            if (animal == 2) {
+              if (computer == 2) {
+                $("#result").text("Ruby on Rails"); 
+              } else if ( computer ==1){
+                $("#result").text("Java");
+              }
+            }
+          }
+        }
+      }
+      if (entertainment == 2 || entertainment == 1) {
+        if (beverage == 1) {
+          if (app == 2) {
+            if (animal == 2) {
+              if (computer == 1) {
+                $("#result").text("Ruby on Rails"); 
               }
             }
           }
