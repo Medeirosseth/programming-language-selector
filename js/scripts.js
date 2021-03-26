@@ -32,7 +32,7 @@ $(document).ready(function() {
           if (app == 1) {
             if (animal == 2) {
               if (computer == 1) {
-                $("#result").text("Ruby");
+                $("#result").text("Ruby on Rails");
               } else if (computer == 2) {
                 $("#result").text("C#");  
               }
@@ -40,7 +40,32 @@ $(document).ready(function() {
           }
         }
       }
-
+      if (entertainment == 1) {
+        if (beverage == 1) {
+          if (app == 2) {
+            if (animal == 1) {
+              if (computer == 1) {
+                $("#result").text("Ruby on Rails");
+              } else if ( computer == 2){
+                $("#result").text("java");
+              }
+            }
+          }
+        }
+      }
+      if (entertainment == 2) {
+        if (beverage == 1) {
+          if (app == 1) {
+            if (animal == 1) {
+              if (computer == 1) {
+                $("#result").text("Ruby on rails"); 
+              } else if ( computer == 2){
+                ("#results").val(BEEEEEF)
+              }
+            }
+          }
+        }
+      }
       $(".hide").show("#result");
     })
 
