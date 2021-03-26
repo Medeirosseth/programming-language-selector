@@ -28,6 +28,14 @@ body{
 .blurb{
   text-align: center;
 }
+
+#float{
+ float: right;
+ margin-right: 100px;
+ margin-top: 50px;
+ width: 400px;
+
+}
 .codename, .codenametitle{
   text-align: center;
 }

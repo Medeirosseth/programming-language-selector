@@ -3,8 +3,8 @@ $(document).ready(function() {
     if (aprospectivecoder) {
       $("#interested").show();
     } else {
-         $("#notinterested").show();
-    }
+        $("#notinterested").show();
+    };
 
     $("#formOne").submit(function(event){
       event.preventDefault();
