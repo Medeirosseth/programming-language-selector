@@ -58,7 +58,7 @@ $(document).ready(function() {
           if (app == 1 || app == 2) {
             if (animal == 1 || animal == 2) {
               if (computer == 1) {
-                $("#result").text("Ruby on rails"); 
+                $("#result").text("ruby on rails"); 
               } else if ( computer ==2){
                 $("#result").text("Java");
               }
