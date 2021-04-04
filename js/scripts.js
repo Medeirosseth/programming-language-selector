@@ -14,111 +14,24 @@ $(document).ready(function() {
       const animal = parseInt($("#animal").val());
       const computer = parseInt($("#computer").val());
 
-      if (entertainment == 1) {
-        if (beverage == 1 || beverage == 2 ) {
-          if (app == 1) {
-            if (animal == 1) {
-              if (computer == 1) {
-                $("#result").text("Java");
-              } else if (computer == 2) {
-                $("#result").text("C#");  
-              }
-            }
-          }
+
+
+      const score = entertainment + beverage + app + animal + computer;
+      const results = ["Java", "C#", "Ruby on Rails"];
+
+      if (score > 8) {
+        results[0];
+      } else if (score > 6) {
+        results[1];
+      } else {
+        results[2];
         }
-      }
-      if (entertainment == 1) {
-        if (beverage == 1) {
-          if (app == 1) {
-            if (animal == 2) {
-              if (computer == 1) {
-                $("#result").text("Ruby on Rails");
-              } else if (computer == 2) {
-                $("#result").text("C#");  
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 1) {
-        if (beverage == 1) {
-          if (app == 2) {
-            if (animal == 1) {
-              if (computer == 1) {
-                $("#result").text("Ruby on Rails");
-              } else if ( computer == 2){
-                $("#result").text("java");
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 2) {
-        if (beverage == 1) {
-          if (app == 1 || app == 2) {
-            if (animal == 1 || animal == 2) {
-              if (computer == 1) {
-                $("#result").text("Ruby on rails"); 
-              } else if ( computer ==2){
-                $("#result").text("Java");
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 2) {
-        if (beverage == 2) {
-          if (app == 2) {
-            if (animal == 2) {
-              if (computer == 2) {
-                $("#result").text("C#"); 
-              } else if ( computer ==1){
-                $("#result").text("PIZZA!!!");
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 2 ) {
-        if (beverage == 2) {
-          if (app == 1 ) {
-            if (animal == 2) {
-              if (computer == 2) {
-                $("#result").text("Ruby on Rails"); 
-              } else if ( computer ==1){
-                $("#result").text("Java");
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 2 || entertainment == 1) {
-        if (beverage == 2) {
-          if (app == 1) {
-            if (animal == 2) {
-              if (computer == 2) {
-                $("#result").text("Ruby on Rails"); 
-              } else if ( computer ==1){
-                $("#result").text("Java");
-              }
-            }
-          }
-        }
-      }
-      if (entertainment == 2 || entertainment == 1) {
-        if (beverage == 1) {
-          if (app == 2) {
-            if (animal == 2) {
-              if (computer == 1) {
-                $("#result").text("Ruby on Rails"); 
-              }
-            }
-          }
-        }
-      }
-      $(".hide").show("#result");
+        
+      $(".hide").show(results);
     })
 
+   
+    
     $("#java").click(function() {
       $(".java-hidden").toggle();
       $(".java-showing").toggle();
