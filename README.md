@@ -20,7 +20,7 @@ _This is an applicatioin for people interested in coding to decide which languag
 ## Setup/Installation Requirements
 
 * _go to https://github.com/Medeirosseth/programming-language-suggester _
-* _Click the green code button and retrieve the git git glone link_
+* _Click the green code button and retrieve the git_
 * _open your terminal and run Git Clone (followed by the URL)_
 * _open the cloned repository with your file manager and run Index.html_
 * _[Click Here](https://medeirosseth.github.io/programming-language-suggester) To veiw website_
