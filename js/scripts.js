@@ -5,7 +5,7 @@ $(document).ready(function() {
     } else {
         $("#notinterested").show();
     };
-
+  
     $("#formOne").submit(function(event){
       event.preventDefault();
       const entertainment = parseInt($("#entertainment").val());
@@ -14,17 +14,15 @@ $(document).ready(function() {
       const animal = parseInt($("#animal").val());
       const computer = parseInt($("#computer").val());
 
-
-
       const score = entertainment + beverage + app + animal + computer;
       const results = ["Java", "C#", "Ruby on Rails"];
-
+      
       if (score > 8) {
-        results[0];
+        $("#results").indexOf(results[0]);
       } else if (score > 6) {
-        results[1];
+        $("#results").indexOf(results[1])
       } else {
-        results[2];
+        $("#results").indexOf(results[2])
         }
         
       $(".hide").show(results);
@@ -47,4 +45,3 @@ $(document).ready(function() {
       $(".ruby-showing").toggle();
     })
 })
-
