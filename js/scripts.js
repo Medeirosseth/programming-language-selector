@@ -18,12 +18,13 @@ $(document).ready(function() {
       const results = ["Java", "C#", "Ruby on Rails"];
 
       if (score > 8) {
-        results[0];
+        $("#result").append(results[0]);
       } else if (score > 6) {
-        results[1];
+        $("#result").append(results[1]);
       } else {
-        results[2];
+        $("#result").append(results[2]);
         }
+        
         
       $(".hide").show(results);
     })
