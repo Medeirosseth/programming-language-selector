@@ -1,9 +1,8 @@
-
 #### _Users answer survey questions to pair with programming language_
 
-#### By _Seth Paul Medeiros_
+#### By :neckbeard:_Seth Paul Medeiros_
 
-## Technologies Used
+## Technologies Used:open_file_folder:
 
 * _VsCode_
 * _HTML_
@@ -17,26 +16,26 @@
 
 _This is an applicatioin for people interested in coding to decide which language they should learn first. Users answer a series of questions about themselves and provides a language suggestion based on their answers._
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements:floppy_disk:
 
 * _go to https://github.com/Medeirosseth/programming-language-suggester _
-* _Click the green code button and retrieve the git_
+* _Click the green code button and retrieve the git git glone link_
 * _open your terminal and run Git Clone (followed by the URL)_
 * _open the cloned repository with your file manager and run Index.html_
-* _[Click Here](https://medeirosseth.github.io/programming-language-suggester) To veiw website_
+* _[Click Here](https://medeirosseth.github.io/programming-language-selector/) to veiw website_
 
 
 ## Known Bugs
 
-* _When confirm() is canceled the hidden notification is not being shown to user _
-* _ Not able to print result back to user_
 * _site must be veiwed in full screen mode to orientate the page as intended_
 
-## License
+## License:book:
 
 MIT License
-
-Copyright (c) [2021] [Seth Medeiros]
+<details>
+  <summary>MIT License</summary>
+  
+  ## Copyright (c) [2021] [Seth Medeiros]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,6 +55,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+</details>
+
 ## Contact Information
 
-_Email@Email.Email_
+:email: Medeirosseth@gmail.com
