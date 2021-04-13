@@ -31,7 +31,6 @@ _This is an applicatioin for people interested in coding to decide which languag
 
 ## License:book:
 
-MIT License
 <details>
   <summary>MIT License</summary>
   
